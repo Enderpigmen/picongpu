@@ -1,0 +1,183 @@
+/* Copyright 2020-2021 Sergei Bastrakov
+ *
+ * This file is part of PIConGPU.
+ *
+ * PIConGPU is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * PIConGPU is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with PIConGPU.
+ * If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/** @file incidentField.param
+ *
+ * Load incident field parameters
+ */
+
+#pragma once
+
+#include "picongpu/fields/incidentField/Profiles.def"
+
+
+namespace picongpu
+{
+    namespace fields
+    {
+        namespace incidentField
+        {
+            class FunctorBase
+            {
+            public:
+
+                //constants of Gaussian Pulse
+
+
+                static constexpr float_64 WAVE_LENGTH_0_SI = 0.8e-6;
+
+                //Amplitude not used yet
+                static constexpr float_64 UNITCONV_A0_to_Amplitude_SI = -2.0 * PI / WAVE_LENGTH_0_SI
+                    * SI::ELECTRON_MASS_SI * SI::SPEED_OF_LIGHT_SI * SI::SPEED_OF_LIGHT_SI / SI::ELECTRON_CHARGE_SI;
+                static constexpr float_64 A0 = 1.;
+                static constexpr float_64 AMPLITUDE_SI = A0 * UNITCONV_A0_to_Amplitude_SI;
+
+                //Pulse width at focus postion
+                static constexpr float_64 W0_SI = 4.0e-6 / 1.17741;
+
+
+                static constexpr float_64 PULS_DURATION = 30.e-15;
+
+                // unit m
+                static constexpr float_64 RAYLEIGH_LENGTH_SI = M_PI * W0_SI * 2.0 / WAVE_LENGTH_0_SI;
+
+                static constexpr float_64 ANGULAR_FREQUENCY = 2.0 * M_PI * SI::SPEED_OF_LIGHT_SI / WAVE_LENGTH_0_SI;
+
+                HDINLINE auto getValue(const floatD_X& totalCellIdx, const float_X currentStep) const
+                {
+
+                    //shift to middle of x-z plane
+                    auto const x = (totalCellIdx.x() -88.) * SI::CELL_HEIGHT_SI;
+                    auto const y = totalCellIdx.y() * SI::CELL_HEIGHT_SI;
+                    auto const z = (totalCellIdx.z() -88.) * SI::CELL_HEIGHT_SI;
+
+                    //shift back in time so that it starts behind init plane
+                    auto const t = (currentStep - 634.) * SI::DELTA_T_SI;
+
+                    //pulse width at y coordinate
+                    auto const pulse_width = W0_SI * sqrt(1. + (y / RAYLEIGH_LENGTH_SI) * (y / RAYLEIGH_LENGTH_SI));
+
+                    //curvature radius at y coordinate
+                    auto const curvature_radius_inv = y / (y * y + RAYLEIGH_LENGTH_SI * RAYLEIGH_LENGTH_SI );
+
+                    //exponent in e term
+                    auto const propagation_exponent = y - SI::SPEED_OF_LIGHT_SI*t + (x*x + z*z) / 2. * curvature_radius_inv;
+
+                    //Gaussian Pulse value normalized Amplitude
+                    auto const valueSI = W0_SI / pulse_width * exp( -(x*x + z*z) / (pulse_width * pulse_width) )
+                        * exp( -propagation_exponent * propagation_exponent / (SI::SPEED_OF_LIGHT_SI * SI::SPEED_OF_LIGHT_SI * PULS_DURATION * PULS_DURATION ) )
+                        * cos( -ANGULAR_FREQUENCY / SI::SPEED_OF_LIGHT_SI * propagation_exponent + atan(y/RAYLEIGH_LENGTH_SI));
+                    return valueSI;
+                }
+            };
+
+            /** Functor to set values of incident E field
+             */
+            class FunctorGaussianPulseE : public FunctorBase
+            {
+            public:
+                /* We use this to calculate your SI input back to our unit system */
+                PMACC_ALIGN(m_unitField, const float3_64);
+
+                /** Create a functor
+                 *
+                 * @param unitField conversion factor from SI to internal units,
+                 *                  field_internal = field_SI / unitField
+                 */
+                HDINLINE FunctorGaussianPulseE(const float3_64 unitField) : m_unitField(unitField)
+                {
+                }
+
+                /** Calculate incident field E_inc(r, t) for a source
+                 *
+                 * @param totalCellIdx cell index in the total domain (including all moving window slides),
+                 *        note that it is fractional
+                 * @param currentStep current time step index, note that it is fractional
+                 */
+                HDINLINE float3_X operator()(const floatD_X& totalCellIdx, const float_X currentStep) const
+                {
+                    auto const valueSI = getValue(totalCellIdx, currentStep);
+                    auto const fieldSI = float3_X(0.0_X, 0.0_X, 0.0_X);
+                    return fieldSI / precisionCast<float_X>(m_unitField);
+                }
+            };
+
+            /** Functor to set values of incident B field
+             */
+            class FunctorGaussianPulseB : public FunctorBase
+            {
+            public:
+                /* We use this to calculate your SI input back to our unit system */
+                PMACC_ALIGN(m_unitField, const float3_64);
+
+                /** Create a functor
+                 *
+                 * @param unitField conversion factor from SI to internal units,
+                 *                  field_internal = field_SI / unitField
+                 */
+                HDINLINE FunctorGaussianPulseB(const float3_64 unitField) : m_unitField(unitField)
+                {
+                }
+
+                /** Calculate incident field B_inc(r, t) for a source
+                 *
+                 * @param totalCellIdx cell index in the total domain (including all moving window slides),
+                 *        note that it is fractional
+                 * @param currentStep current time step index, note that it is fractional
+                 */
+                HDINLINE float3_X operator()(const floatD_X& totalCellIdx, const float_X currentStep) const
+                {
+                    auto const valueSI = getValue(totalCellIdx, currentStep);
+                    auto const fieldSI = float3_X(0.0_X, 0.0_X, -valueSI) / SI::SPEED_OF_LIGHT_SI;
+                    return fieldSI / precisionCast<float_X>(m_unitField);
+                }
+            };
+
+            //! Plane wave source of incident E and B fields.
+            using GaussianPulseSource = Source<FunctorGaussianPulseE, FunctorGaussianPulseB>;
+
+            /**@{*/
+            /** Incident field source types along each boundary, these 6 types (or aliases) are required.
+             *
+             * Each type has to be either Source<> or None.
+             *
+             * Here we generate a plane wave from the X min border.
+             */
+            using XMin = None;
+            using XMax = None;
+            using YMin = GaussianPulseSource;
+            using YMax = None;
+            using ZMin = None;
+            using ZMax = None;
+            /**@}*/
+
+            /** Gap of the Huygence surface from absorber
+             *
+             * The gap is in cells, counted from the corrresponding boundary in the normal direction pointing inwards.
+             * It is similar to specifying absorber cells, just this layer is further inside.
+             */
+            constexpr uint32_t GAP_FROM_ABSORBER[3][2] = {
+                {0, 0}, // x direction [negative, positive]
+                {0, 0}, // y direction [negative, positive]
+                {0, 0} // z direction [negative, positive]
+            };
+
+        } // namespace incidentField
+    } // namespace fields
+} // namespace picongpu

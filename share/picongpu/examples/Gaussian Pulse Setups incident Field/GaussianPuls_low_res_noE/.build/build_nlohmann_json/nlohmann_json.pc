@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.9.1
+Cflags: -I/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noE/include

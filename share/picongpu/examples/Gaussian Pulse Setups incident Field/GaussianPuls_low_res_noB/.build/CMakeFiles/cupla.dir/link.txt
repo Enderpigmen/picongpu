@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcupla.a  CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/cupla_generated_common.cpp.o CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/cupla_generated_device.cpp.o CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/cupla_generated_event.cpp.o CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/manager/cupla_generated_Driver.cpp.o CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/cupla_generated_memory.cpp.o CMakeFiles/cupla.dir/__/__/thirdParty/cupla/src/cupla_generated_stream.cpp.o
+/usr/bin/ranlib libcupla.a

@@ -1,0 +1,1273 @@
+The system is: Linux - 3.10.0-1160.6.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/3.15.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/3.15.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_66d51/fast && /usr/bin/gmake -f CMakeFiles/cmTC_66d51.dir/build.make CMakeFiles/cmTC_66d51.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66d51.dir/testCCompiler.c.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc    -o CMakeFiles/cmTC_66d51.dir/testCCompiler.c.o   -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_66d51
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66d51.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc      CMakeFiles/cmTC_66d51.dir/testCCompiler.c.o  -o cmTC_66d51 
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_18029/fast && /usr/bin/gmake -f CMakeFiles/cmTC_18029.dir/build.make CMakeFiles/cmTC_18029.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc   -v -o CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o   -c /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1 -quiet -v /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclU5zzu.s
+GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /trinity/shared/pkg/devel/cuda/11.2/include
+ /trinity/shared/pkg/numlib/gmp/6.1.2/include
+ /trinity/shared/pkg/numlib/mpc/1.0.3/include
+ /trinity/shared/pkg/numlib/mpfr/3.1.4/include
+ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include
+ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include
+ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m
+ /trinity/shared/pkg/devel/python/3.6.5/include
+ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/zlib/1.2.11/include
+ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include
+ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include
+ /usr/local/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed
+ /usr/include
+End of search list.
+GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 6fba171fb8117db7bde46426bfd9aaaa
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o /tmp/cclU5zzu.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_18029
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18029.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc     -v CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o  -o cmTC_18029 
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc
+COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18029' '-mtune=generic' '-march=x86-64'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6DOyFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_18029 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18029' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/trinity/shared/pkg/devel/cuda/11.2/include]
+    add: [/trinity/shared/pkg/numlib/gmp/6.1.2/include]
+    add: [/trinity/shared/pkg/numlib/mpc/1.0.3/include]
+    add: [/trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+    add: [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+    add: [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+    add: [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+    add: [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+    add: [/trinity/shared/pkg/devel/python/3.6.5/include]
+    add: [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+    add: [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/devel/zlib/1.2.11/include]
+    add: [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/trinity/shared/pkg/devel/cuda/11.2/include] ==> [/trinity/shared/pkg/devel/cuda/11.2/include]
+  collapse include dir [/trinity/shared/pkg/numlib/gmp/6.1.2/include] ==> [/trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  collapse include dir [/trinity/shared/pkg/numlib/mpc/1.0.3/include] ==> [/trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  collapse include dir [/trinity/shared/pkg/numlib/mpfr/3.1.4/include] ==> [/trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  collapse include dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  collapse include dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  collapse include dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  collapse include dir [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m] ==> [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  collapse include dir [/trinity/shared/pkg/devel/python/3.6.5/include] ==> [/trinity/shared/pkg/devel/python/3.6.5/include]
+  collapse include dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  collapse include dir [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include] ==> [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/devel/zlib/1.2.11/include] ==> [/trinity/shared/pkg/devel/zlib/1.2.11/include]
+  collapse include dir [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/include] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/trinity/shared/pkg/devel/cuda/11.2/include;/trinity/shared/pkg/numlib/gmp/6.1.2/include;/trinity/shared/pkg/numlib/mpc/1.0.3/include;/trinity/shared/pkg/numlib/mpfr/3.1.4/include;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include;/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m;/trinity/shared/pkg/devel/python/3.6.5/include;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include;/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include;/trinity/shared/pkg/devel/zlib/1.2.11/include;/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include;/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include;/usr/local/include;/trinity/shared/pkg/compiler/gcc/7.3.0/include;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_18029/fast && /usr/bin/gmake -f CMakeFiles/cmTC_18029.dir/build.make CMakeFiles/cmTC_18029.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc   -v -o CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o   -c /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1 -quiet -v /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclU5zzu.s]
+  ignore line: [GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /trinity/shared/pkg/devel/cuda/11.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  ignore line: [ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  ignore line: [ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include]
+  ignore line: [ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/zlib/1.2.11/include]
+  ignore line: [ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: 6fba171fb8117db7bde46426bfd9aaaa]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o /tmp/cclU5zzu.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_18029]
+  ignore line: [/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18029.dir/link.txt --verbose=1]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc     -v CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o  -o cmTC_18029 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18029' '-mtune=generic' '-march=x86-64']
+  link line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6DOyFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_18029 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6DOyFA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_18029] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+    arg [-L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_18029.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7;/lib64;/usr/lib64;/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib;/trinity/shared/pkg/devel/cuda/11.2/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f5ba3/fast && /usr/bin/gmake -f CMakeFiles/cmTC_f5ba3.dir/build.make CMakeFiles/cmTC_f5ba3.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5ba3.dir/testCXXCompiler.cxx.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++     -o CMakeFiles/cmTC_f5ba3.dir/testCXXCompiler.cxx.o -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f5ba3
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5ba3.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++       CMakeFiles/cmTC_f5ba3.dir/testCXXCompiler.cxx.o  -o cmTC_f5ba3 
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_89fe4/fast && /usr/bin/gmake -f CMakeFiles/cmTC_89fe4.dir/build.make CMakeFiles/cmTC_89fe4.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -v -o CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -c /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1plus -quiet -v -D_GNU_SOURCE /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccXCNYr8.s
+GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/cuda/11.2/include
+ /trinity/shared/pkg/numlib/gmp/6.1.2/include
+ /trinity/shared/pkg/numlib/mpc/1.0.3/include
+ /trinity/shared/pkg/numlib/mpfr/3.1.4/include
+ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include
+ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include
+ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m
+ /trinity/shared/pkg/devel/python/3.6.5/include
+ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/zlib/1.2.11/include
+ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include
+ /usr/local/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: cf65348210b856a6ffaa17611eb9a9cc
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXCNYr8.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_89fe4
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89fe4.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++      -v CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_89fe4 
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89fe4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHAnwd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_89fe4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89fe4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/devel/cuda/11.2/include]
+    add: [/trinity/shared/pkg/numlib/gmp/6.1.2/include]
+    add: [/trinity/shared/pkg/numlib/mpc/1.0.3/include]
+    add: [/trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+    add: [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+    add: [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+    add: [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+    add: [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+    add: [/trinity/shared/pkg/devel/python/3.6.5/include]
+    add: [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+    add: [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/devel/zlib/1.2.11/include]
+    add: [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/include]
+    add: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/devel/cuda/11.2/include] ==> [/trinity/shared/pkg/devel/cuda/11.2/include]
+  collapse include dir [/trinity/shared/pkg/numlib/gmp/6.1.2/include] ==> [/trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  collapse include dir [/trinity/shared/pkg/numlib/mpc/1.0.3/include] ==> [/trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  collapse include dir [/trinity/shared/pkg/numlib/mpfr/3.1.4/include] ==> [/trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  collapse include dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  collapse include dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  collapse include dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  collapse include dir [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m] ==> [/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  collapse include dir [/trinity/shared/pkg/devel/python/3.6.5/include] ==> [/trinity/shared/pkg/devel/python/3.6.5/include]
+  collapse include dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  collapse include dir [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include] ==> [/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/devel/zlib/1.2.11/include] ==> [/trinity/shared/pkg/devel/zlib/1.2.11/include]
+  collapse include dir [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include] ==> [/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7/x86_64-pc-linux-gnu]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7/backward]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/include] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  collapse include dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include;/trinity/shared/pkg/devel/cuda/11.2/include;/trinity/shared/pkg/numlib/gmp/6.1.2/include;/trinity/shared/pkg/numlib/mpc/1.0.3/include;/trinity/shared/pkg/numlib/mpfr/3.1.4/include;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include;/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m;/trinity/shared/pkg/devel/python/3.6.5/include;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include;/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include;/trinity/shared/pkg/devel/zlib/1.2.11/include;/trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include;/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7;/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7/x86_64-pc-linux-gnu;/trinity/shared/pkg/compiler/gcc/7.3.0/include/c++/7/backward;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include;/usr/local/include;/trinity/shared/pkg/compiler/gcc/7.3.0/include;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_89fe4/fast && /usr/bin/gmake -f CMakeFiles/cmTC_89fe4.dir/build.make CMakeFiles/cmTC_89fe4.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -v -o CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -c /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1plus -quiet -v -D_GNU_SOURCE /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccXCNYr8.s]
+  ignore line: [GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/cuda/11.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  ignore line: [ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  ignore line: [ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include]
+  ignore line: [ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/zlib/1.2.11/include]
+  ignore line: [ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: cf65348210b856a6ffaa17611eb9a9cc]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXCNYr8.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_89fe4]
+  ignore line: [/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89fe4.dir/link.txt --verbose=1]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++      -v CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_89fe4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89fe4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHAnwd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_89fe4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZHAnwd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_89fe4] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+    arg [-L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_89fe4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7;/lib64;/usr/lib64;/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib;/trinity/shared/pkg/devel/cuda/11.2/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9ae9f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9ae9f.dir/build.make CMakeFiles/cmTC_9ae9f.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ae9f.dir/CheckIncludeFile.c.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc    -o CMakeFiles/cmTC_9ae9f.dir/CheckIncludeFile.c.o   -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9ae9f
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ae9f.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc      CMakeFiles/cmTC_9ae9f.dir/CheckIncludeFile.c.o  -o cmTC_9ae9f 
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9dab4/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9dab4.dir/build.make CMakeFiles/cmTC_9dab4.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9dab4.dir/CheckFunctionExists.c.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9dab4.dir/CheckFunctionExists.c.o   -c /trinity/shared/pkg/devel/cmake/3.15.2/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dab4
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dab4.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9dab4.dir/CheckFunctionExists.c.o  -o cmTC_9dab4 -lpthread 
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_31709/fast && /usr/bin/gmake -f CMakeFiles/cmTC_31709.dir/build.make CMakeFiles/cmTC_31709.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc   -fopenmp -v   -o CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o   -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1 -quiet -v -D_REENTRANT /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccx2tgzZ.s
+GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /trinity/shared/pkg/devel/cuda/11.2/include
+ /trinity/shared/pkg/numlib/gmp/6.1.2/include
+ /trinity/shared/pkg/numlib/mpc/1.0.3/include
+ /trinity/shared/pkg/numlib/mpfr/3.1.4/include
+ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include
+ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include
+ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m
+ /trinity/shared/pkg/devel/python/3.6.5/include
+ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/zlib/1.2.11/include
+ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include
+ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include
+ /usr/local/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed
+ /usr/include
+End of search list.
+GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 6fba171fb8117db7bde46426bfd9aaaa
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o /tmp/ccx2tgzZ.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_31709
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31709.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o  -o cmTC_31709 -v 
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc
+COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+Reading specs from /trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_31709' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdmnmu1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_31709 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_31709' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_31709/fast && /usr/bin/gmake -f CMakeFiles/cmTC_31709.dir/build.make CMakeFiles/cmTC_31709.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc   -fopenmp -v   -o CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o   -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1 -quiet -v -D_REENTRANT /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccx2tgzZ.s]
+  ignore line: [GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /trinity/shared/pkg/devel/cuda/11.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  ignore line: [ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  ignore line: [ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include]
+  ignore line: [ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/zlib/1.2.11/include]
+  ignore line: [ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: 6fba171fb8117db7bde46426bfd9aaaa]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o /tmp/ccx2tgzZ.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_31709]
+  ignore line: [/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31709.dir/link.txt --verbose=1]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o  -o cmTC_31709 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_31709' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdmnmu1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_31709 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdmnmu1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_31709] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+    arg [-L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_31709.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7;/lib64;/usr/lib64;/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib;/trinity/shared/pkg/devel/cuda/11.2/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4f299/fast && /usr/bin/gmake -f CMakeFiles/cmTC_4f299.dir/build.make CMakeFiles/cmTC_4f299.dir/build
+gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -O3 -DNDEBUG -fopenmp -v   -std=c++14 -o CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D NDEBUG /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -O3 -std=c++14 -version -fopenmp -o /tmp/cchxEISc.s
+GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/cuda/11.2/include
+ /trinity/shared/pkg/numlib/gmp/6.1.2/include
+ /trinity/shared/pkg/numlib/mpc/1.0.3/include
+ /trinity/shared/pkg/numlib/mpfr/3.1.4/include
+ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include
+ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include
+ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include
+ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m
+ /trinity/shared/pkg/devel/python/3.6.5/include
+ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include
+ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include
+ /trinity/shared/pkg/devel/zlib/1.2.11/include
+ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include
+ /usr/local/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/include
+ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: cf65348210b856a6ffaa17611eb9a9cc
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o /tmp/cchxEISc.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_4f299
+/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f299.dir/link.txt --verbose=1
+/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -O3 -DNDEBUG -fopenmp -v    CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o  -o cmTC_4f299 -v 
+Using built-in specs.
+COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/
+Reading specs from /trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_4f299' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF15yGj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4f299 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_4f299' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_4f299/fast && /usr/bin/gmake -f CMakeFiles/cmTC_4f299.dir/build.make CMakeFiles/cmTC_4f299.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -O3 -DNDEBUG -fopenmp -v   -std=c++14 -o CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -c /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D NDEBUG /home/mricht11/picInputs/GaussianPuls/GaussianPuls_low_res_noB/.build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -O3 -std=c++14 -version -fopenmp -o /tmp/cchxEISc.s]
+  ignore line: [GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring nonexistent directory "/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/tools/libfabric/1.11.1-co79/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include/python3.6m"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/python/3.6.5/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/trinity/shared/pkg/devel/zlib/1.2.11/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/cuda/11.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/gmp/6.1.2/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpc/1.0.3/include]
+  ignore line: [ /trinity/shared/pkg/numlib/mpfr/3.1.4/include]
+  ignore line: [ /trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/include]
+  ignore line: [ /trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/tools/libfabric/1.11.1-co79/include]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include/python3.6m]
+  ignore line: [ /trinity/shared/pkg/devel/python/3.6.5/include]
+  ignore line: [ /trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/include]
+  ignore line: [ /trinity/shared/pkg/devel/c-blosc/1.14.4/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/devel/zlib/1.2.11/include]
+  ignore line: [ /trinity/shared/pkg/devel/boost/1.68.0/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/x86_64-pc-linux-gnu]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../include/c++/7/backward]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/include]
+  ignore line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 7.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: cf65348210b856a6ffaa17611eb9a9cc]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o /tmp/cchxEISc.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_4f299]
+  ignore line: [/trinity/shared/pkg/devel/cmake/3.15.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f299.dir/link.txt --verbose=1]
+  ignore line: [/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++    -O3 -DNDEBUG -fopenmp -v    CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o  -o cmTC_4f299 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/trinity/shared/pkg/compiler/gcc/7.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-bootstrap --prefix=/trinity/shared/pkg/compiler/gcc/7.3.0 --enable-build-with-cxx --disable-multilib --oldincludedir=/usr/include --with-gcc-major-version-only --enable-shared --enable-checking --with-system-zlib --enable-gnu-indirect-function --enable-gnu-unique-object --enable-lto --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib/:/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/:/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib/:/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/:/trinity/shared/pkg/devel/cuda/11.2/lib64/:/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_4f299' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2 -plugin /trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so -plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF15yGj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4f299 /lib/../lib64/crt1.o /lib/../lib64/crti.o /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64 -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib -L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64 -L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib -L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib -L/trinity/shared/pkg/devel/cuda/11.2/lib64 -L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../.. CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o /lib/../lib64/crtn.o]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/trinity/shared/pkg/compiler/gcc/7.3.0/libexec/gcc/x86_64-pc-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccF15yGj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4f299] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+    arg [-L/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+    arg [-L/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+    arg [-L/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+    arg [-L/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> dir [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+    arg [-L/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_4f299.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib/../lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../../../lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib] ==> [/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64] ==> [/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64]
+  collapse library dir [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib] ==> [/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib]
+  collapse library dir [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib] ==> [/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  collapse library dir [/trinity/shared/pkg/devel/cuda/11.2/lib64] ==> [/trinity/shared/pkg/devel/cuda/11.2/lib64]
+  collapse library dir [/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7/../../..] ==> [/trinity/shared/pkg/compiler/gcc/7.3.0/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/trinity/shared/pkg/compiler/gcc/7.3.0/lib64;/trinity/shared/pkg/filelib/openpmd/0.13.2-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112-adios271/lib64;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7;/lib64;/usr/lib64;/trinity/shared/pkg/mpi/ucx/1.10.0/gcc/7.3.0/lib;/trinity/shared/pkg/devel/cuda/11.2/lib64;/trinity/shared/pkg/compiler/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/pngwriter/0.7.0/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/libpng/1.6.35/gcc/7.3.0/lib;/trinity/shared/pkg/filelib/adios/2.7.1-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib;/trinity/shared/pkg/tools/libfabric/1.11.1-co79/lib;/trinity/shared/pkg/filelib/hdf5-parallel/1.12.0-cuda112/gcc/7.3.0/openmpi/4.0.4-cuda112/lib]
+  implicit fwks: []
+
+
